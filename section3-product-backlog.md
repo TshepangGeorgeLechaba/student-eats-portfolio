@@ -4,20 +4,20 @@
 
 ## 1. Evidence of Learning
 
-> **Definition:** A product backlog is a single, prioritized list of all required features, technical enhancements, bug fixes, and infrastructure tasks needed for a product[cite: 20]. It is owned by the product team and continuously evolves as customer needs and technical constraints change[cite: 20].
+> **Definition:** A product backlog is a single, prioritized list of all required features, technical enhancements, bug fixes, and infrastructure tasks needed for a product. It is owned by the product team and continuously evolves as customer needs and technical constraints change.
 
 ### Student Eats Prioritized Product Backlog
 
-The table below reflects our core Product Backlog, managed on Trello using MoSCoW prioritization (Must have, Should have, Could have, Won't have) and ordered by business value for CPUT student buyers and residence vendors[cite: 16, 20]:
+The table below reflects our core Product Backlog, managed on Trello using MoSCoW prioritization (Must have, Should have, Could have, Won't have) and ordered by business value for CPUT student buyers and residence vendors:
 
 | Priority | Item ID | Feature / Module | User Story & Acceptance Summary | Target Sprint | Status |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| **Must Have** | PB-01 | User Registration & Role-Based Auth | University email validation (`@mycput.ac.za`), bcrypt password encryption, role flag (`buyer`/`vendor`)[cite: 16]. | Sprint 4 & 5 | In Progress |
-| **Must Have** | PB-02 | Cart & Residence Checkout | Shopping cart state, pickup location selection (e.g., Freedom Square), dynamic total calculation[cite: 16]. | Sprint 7 | In Progress |
-| **Must Have** | PB-03 | Seller Dashboard | Residence vendor interface to create/edit menu listings, manage inventory, and toggle stock availability[cite: 16]. | Sprint 8 | Completed |
-| **Should Have** | PB-04 | Marketplace Search & Filtering | Interactive meal cards filtered by residence venue, price range, and dietary tags[cite: 16]. | Sprint 6 | Completed |
-| **Should Have** | PB-05 | Real-Time Order Tracking | Order state pipeline (`Placed` $\rightarrow$ `Preparing` $\rightarrow$ `Ready for Pickup`)[cite: 16]. | Sprint 7 | In Progress |
-| **Could Have** | PB-06 | System Documentation & Testing | Functional testing, UI testing, and final project documentation/presentation[cite: 16]. | Sprint 9 & 10 | In Progress |
+| **Must Have** | PB-01 | User Registration & Role-Based Auth | University email validation (`@mycput.ac.za`), bcrypt password encryption, role flag (`buyer`/`vendor`). | Sprint 4 & 5 | In Progress |
+| **Must Have** | PB-02 | Cart & Residence Checkout | Shopping cart state, pickup location selection (e.g., Freedom Square), dynamic total calculation. | Sprint 7 | In Progress |
+| **Must Have** | PB-03 | Seller Dashboard | Residence vendor interface to create/edit menu listings, manage inventory, and toggle stock availability. | Sprint 8 | Completed |
+| **Should Have** | PB-04 | Marketplace Search & Filtering | Interactive meal cards filtered by residence venue, price range, and dietary tags. | Sprint 6 | Completed |
+| **Should Have** | PB-05 | Real-Time Order Tracking | Order state pipeline (`Placed` $\rightarrow$ `Preparing` $\rightarrow$ `Ready for Pickup`). | Sprint 7 | In Progress |
+| **Could Have** | PB-06 | System Documentation & Testing | Functional testing, UI testing, and final project documentation/presentation. | Sprint 9 & 10 | In Progress |
 
 ---
 
@@ -25,9 +25,9 @@ The table below reflects our core Product Backlog, managed on Trello using MoSCo
 
 ### Reflecting on Backlog Prioritization and Scope Management
 
-Managing the *Student Eats* product backlog required balancing user-facing business requirements with technical infrastructure tasks and strict academic deadlines[cite: 20]. Early in the project, our backlog included non-essential ideas such as integrated online payment gateways and complex automated chat systems.
+Managing the *Student Eats* product backlog required balancing user-facing business requirements with technical infrastructure tasks and strict academic deadlines. Early in the project, our backlog included non-essential ideas such as integrated online payment gateways and complex automated chat systems.
 
 #### Key Takeaways & Impact on Execution:
-1. **Focusing on Minimum Viable Product (MVP):** Applying Agile prioritization allowed us to filter out low-priority items and focus on core value streams—specifically secure university authentication and seamless order checkout[cite: 20].
-2. **Managing Technical Debt:** Maintaining a formal product backlog made technical maintenance tasks (such as MySQL schema migrations and Express CORS middleware configuration) visible alongside user stories[cite: 20]. This prevented hidden technical bottlenecks during full-stack integration.
-3. **Evolution of Learning:** Backlog refinement taught me that a product backlog is a living document, not a rigid plan[cite: 20]. Re-evaluating sprint velocity and re-ordering backlog items ensured our team maintained steady progress toward our final deliverable[cite: 16, 20].
+1. **Focusing on Minimum Viable Product (MVP):** Applying Agile prioritization allowed us to filter out low-priority items and focus on core value streams—specifically secure university authentication and seamless order checkout.
+2. **Managing Technical Debt:** Maintaining a formal product backlog made technical maintenance tasks (such as MySQL schema migrations and Express CORS middleware configuration) visible alongside user stories. This prevented hidden technical bottlenecks during full-stack integration.
+3. **Evolution of Learning:** Backlog refinement taught me that a product backlog is a living document, not a rigid plan. Re-evaluating sprint velocity and re-ordering backlog items ensured our team maintained steady progress toward our final deliverable.
