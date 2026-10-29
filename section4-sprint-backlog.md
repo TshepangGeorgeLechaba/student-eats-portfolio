@@ -6,6 +6,13 @@
 
 > **Definition:** A Sprint Backlog is a real-time, actionable plan created by and for developers outlining the specific Product Backlog items selected for a sprint, along with the granular tasks required to achieve the Sprint Goal.
 
+### Visual Evidence: Active Sprint Kanban Board
+
+![Active Sprint Kanban Board](./assets/sprint-backlog-kanban.png)
+*Figure 4.1: Active Sprint Kanban board showing To Do, In Progress, Testing, and Done lists (October 2026).*
+
+---
+
 ### Active Sprint Task Board & Goal Alignments (Student Eats)
 
 Below is an overview of our team's active Sprint Backlogs across critical development phases, managed on Trello using Kanban columns (*To Do*, *In Progress*, *Testing*, *Done*):
