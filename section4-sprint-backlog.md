@@ -15,7 +15,7 @@ Below is the complete task breakdown and Trello evidence from our actual develop
 - **Assigned Team Members:** Bradley Maelane (BM), Junior Tutu (JT), Luthando Ndlaku (LN), Tshepang Lechaba (TL)
 
 ![Sprint 4 Trello Card Details](./assets/sprint4-trello-card.png)
-*Figure 4.1: Trello card breakdown for Sprint 4 (User Registration) across Days 1–4.*
+*Figure 4.1: Trello card breakdown for Sprint 4 (User Registration) showing 100% completion across Days 1–4.*
 
 **Daily Breakdown & Tasks Completed:**
 - **Day 1:**
@@ -40,7 +40,7 @@ Below is the complete task breakdown and Trello evidence from our actual develop
 - **Assigned Team Members:** Bradley Maelane (BM), Junior Tutu (JT), Luthando Ndlaku (LN), Tshepang Lechaba (TL)
 
 ![Sprint 5 Trello Card Details](./assets/sprint5-trello-card.png)
-*Figure 4.2: Trello card breakdown for Sprint 5 (Login & User Authentication) across Days 1–4.*
+*Figure 4.2: Trello card breakdown for Sprint 5 (Login & User Authentication) showing 100% completion across Days 1–4.*
 
 **Daily Breakdown & Tasks Completed:**
 - **Day 1:**
@@ -65,6 +65,6 @@ Below is the complete task breakdown and Trello evidence from our actual develop
 Breaking our work down into a 4-day checklist for each sprint was a game-changer for our team. When we first looked at "User Registration" or "Login", those sounded like huge technical mountains. Splitting them into bite-sized daily tasks gave us a realistic roadmap and made tracking our daily progress effortless.
 
 #### Key Takeaways & Human Lessons:
-1. **Staying Accountable Every Day:** Seeing green progress bars reach 100% at the end of each day kept us motivated. We always knew who was working on what—for instance, while the frontend UI fields were being laid out on Days 1 and 2, backend database scripts were being prepped for Days 3 and 4.
+1. **Staying Accountable Every Day:** Seeing green progress bars reach 100% at the end of each sprint kept us motivated. We always knew who was working on what—for instance, while the frontend UI fields were being laid out on Days 1 and 2, backend database scripts were being prepped for Days 3 and 4.
 2. **Planning for Testing and Bug Fixing:** Dedicating Day 4 specifically to testing and bug fixes saved us from last-minute stress. During Sprint 5, for example, testing helped us catch missing error feedback messages when a user typed the wrong password, allowing us to fix it before moving on.
 3. **What I Learned as a Developer:** I realized that software development isn't just about writing code all at once; it's about steady pacing. Having clear, small check-boxes meant we spent less time wondering "what should I do next?" and more time actually getting things done.
