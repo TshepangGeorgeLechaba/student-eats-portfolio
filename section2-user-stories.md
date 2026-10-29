@@ -4,43 +4,43 @@
 
 ## 1. Evidence of Learning
 
-> **Definition:** A user story in Agile is a short, simple description of a software feature written from the end-user's perspective (*As a... I want... So that...*). In development, user stories are broken down into granular, actionable developer tasks to guide implementation and testing.
+> **Definition:** A user story in Agile describes a software feature from the perspective of the person using it (*As a... I want... So that...*). Breaking these stories into daily sub-tasks gives developers, designers, and testers a clear roadmap of what needs to be built and tested.
 
-### Visual Evidence: User Story Breakdown in Trello
+### Visual Evidence: Trello User Story Cards
 
 ![Trello User Stories and Acceptance Criteria](./assets/user-stories-trello.png)
-*Figure 2.1: Trello cards showing user stories, acceptance criteria, and sub-task checklists (October 2026).*
+*Figure 2.1: Trello cards showing user stories, acceptance criteria, and sub-task checklists.*
 
 ---
 
 ### Core User Stories & Task Breakdowns (Student Eats)
 
-#### Story 1: Student Registration & Role-Based Authentication
-- **User Story:** *As a CPUT student, I want to create an account using my university email address so that I can securely log in and order meals from residence vendors.*
+#### Story 1: Student Registration & Role Selection
+- **User Story:** *As a CPUT student, I want to create an account using my university email address so that I can log in safely and order food or list my homemade meals.*
 - **Acceptance Criteria:**
-  - Email field must validate `@mycput.ac.za` or `@cput.ac.za` domain strings.
-  - Passwords must be hashed using `bcrypt` before database persistence.
-  - Role selection flag must distinguish between `buyer` and `vendor` accounts.
-- **Developer Task Breakdown:**
-  1. [Frontend] Design React registration form layout with real-time input validations.
-  2. [Backend] Create Express POST endpoint `/api/auth/register`.
-  3. [Database] Define `users` table schema in MySQL with role flags.
-  4. [QA] Execute unit testing on valid vs. invalid email formats and password lengths.
+  - Email input must validate `@mycput.ac.za` or `@cput.ac.za` domain strings.
+  - Passwords must be hashed securely before saving to the MySQL database.
+  - Role selection flags must distinguish between `buyer` and `vendor` accounts.
+- **Team Task Breakdown:**
+  1. [Designer - Lisakhanya] Wireframe and layout the React registration screen UI[cite: 8].
+  2. [Developer - Luthando / Tshepang] Create Express POST endpoint `/api/auth/register`[cite: 8, 9].
+  3. [Developer - Junior / Tshepang] Configure MySQL `users` table schema with role flags[cite: 8, 9].
+  4. [Tester - Junior] Test email domain validation and password length edge cases[cite: 9].
 
 ![Registration Page Interface](./assets/registration-page-screenshot.png)
-*Figure 2.2: User Registration Interface with CPUT email domain validation.*
+*Figure 2.2: User Registration screen with CPUT email validation.*
 
 ---
 
-#### Story 2: Marketplace Discovery & Filter
-- **User Story:** *As a student buyer, I want to browse available meals and filter by residence location so that I can quickly find affordable food options nearby.*
+#### Story 2: Marketplace Search & Residence Filtering
+- **User Story:** *As a hungry student living in residence, I want to browse available homemade meals and filter by my building so I can quickly find food nearby.*
 - **Acceptance Criteria:**
-  - Render interactive meal cards displaying price, vendor name, and pickup location.
-  - Filter listings dynamically based on residence selection (e.g., Freedom Square, Catsville).
-- **Developer Task Breakdown:**
-  1. [Frontend] Build responsive meal grid component in React.
-  2. [Backend] Build Express GET endpoint `/api/products` with query parameter filtering.
-  3. [Database] Store product listings with image URLs and vendor foreign keys.
+  - Render interactive meal cards displaying meal price, vendor name, and residence pickup location.
+  - Filter listings dynamically based on residence dropdown selection (e.g., Freedom Square, Catsville).
+- **Team Task Breakdown:**
+  1. [Designer - Lisakhanya] Build responsive meal grid components and visual tags in React[cite: 8].
+  2. [Developer - Luthando] Build Express GET endpoint `/api/products` with filter parameters[cite: 9].
+  3. [Developer - Tshepang] Connect backend API responses to React state management[cite: 8, 9].
 
 ![Marketplace Search and Filter Screenshot](./assets/marketplace-filter-screenshot.png)
 *Figure 2.3: Student Eats marketplace meal discovery grid.*
@@ -48,17 +48,17 @@
 ---
 
 #### Story 3: Cart Management & Pickup Checkout
-- **User Story:** *As a buyer, I want to place items in a shopping cart and select my pickup spot so that I can confirm my meal order.*
+- **User Story:** *As a buyer, I want to add meals to a shopping cart and pick my residence spot so I can confirm my order for pickup.*
 - **Acceptance Criteria:**
-  - Dynamic total calculation based on selected menu items and quantities.
-  - Checkout confirmation screen displaying order summary and estimated pickup time.
-- **Developer Task Breakdown:**
-  1. [Frontend] Create React Context for cart state management (add/remove items).
-  2. [Frontend] Design checkout screen with pickup residence dropdown menu.
-  3. [Backend] Create Express POST endpoint `/api/orders` to persist order records.
+  - Dynamic subtotal and total calculations when adding or removing items.
+  - Checkout confirmation screen showing order summary, vendor details, and estimated pickup time.
+- **Team Task Breakdown:**
+  1. [Product Owner / Developer - Bradley] Design cart state logic and residence pickup selection[cite: 9].
+  2. [Developer - Tshepang] Create Express POST endpoint `/api/orders` to persist order history[cite: 8, 9].
+  3. [Tester - Junior] Run end-to-end checkout flow checks to verify order data accuracy[cite: 9].
 
 ![Cart and Checkout Screenshot](./assets/checkout-page-screenshot.png)
-*Figure 2.4: Shopping Cart and Residence Pickup Checkout Screen.*
+*Figure 2.4: Shopping Cart and Checkout preview screen.*
 
 ---
 
@@ -66,9 +66,9 @@
 
 ### Reflecting on End-User Perspective and Feature Prioritization
 
-Structuring the *Student Eats* platform around user stories significantly transformed how our team approached project features. Initially, our focus was purely technical—setting up server endpoints and database schemas. However, framing development through the "As a... I want... So that..." structure re-centered our focus on end-user value.
+Focusing on user stories completely changed how our team worked together. At first, we were jumping straight into database tables and writing Express endpoints. Framing features around user needs kept us focused on what actually mattered to CPUT students sitting in residence.
 
-#### Key Takeaways & Impact on Execution:
-1. **Focusing on End-User Value:** Drafting user stories forced us to consider real user constraints early. For instance, requiring CPUT email validation ensured platform safety and trust between student buyers and vendors.
-2. **Granular Task Decomposition:** Splitting high-level user stories into clear backend, frontend, and database tasks prevented developer overwhelm. Team members could take complete ownership of individual full-stack slices (e.g., cart state management or authentication endpoints).
-3. **Evolution of Learning:** Defining acceptance criteria prior to writing code proved essential for quality assurance. Clear acceptance criteria minimized ambiguity during integration testing and ensured feature completeness before merging code into our main branch.
+#### What I Personally Learned:
+1. **Building for Real Constraints:** Writing user stories forced us to think about safety and convenience early on. Requiring `@mycput.ac.za` email addresses meant buyers and sellers knew they were dealing with real campus peers[cite: 8].
+2. **Clear Task Distribution:** Breaking big user stories into specific developer, designer, and testing tasks prevented us from stepping on each other's toes[cite: 8, 9]. Lisakhanya could focus on UI design while Junior set up test cases and the backend team worked on API integration[cite: 8, 9].
+3. **Growth as a Developer:** Defining acceptance criteria before writing code made QA testing straightforward[cite: 9, 11]. We didn't consider a story "done" until it satisfied the exact criteria our Product Owner (Bradley) signed off on[cite: 9, 11].
