@@ -6,6 +6,13 @@
 
 > **Definition:** An Agile Logbook is a tracking tool used by project managers and development teams to record daily stand-ups, sprint plans, retrospective notes, identified blockers, and continuous process improvements.
 
+### Visual Evidence: Daily Stand-Up Logs & Retrospective Notes
+
+![Agile Logbook Notes](./assets/agile-logbook-notes.png)
+*Figure 5.1: Excerpt from team stand-up logs and sprint retrospective meeting notes (October 2026).*
+
+---
+
 ### Sample Sprint Logbook & Retrospective Entries (Student Eats)
 
 Below are representative excerpts from our team's Agile Logbook documenting daily stand-up logs, technical blockers, and sprint retrospective reflections:
@@ -22,6 +29,7 @@ Below are representative excerpts from our team's Agile Logbook documenting dail
 - **Resolution:** Updated Express middleware configuration using `cors()` and established standard environment variable files (`.env`).
 
 #### Log Entry 2: Sprint Retrospective Summary
+- **Date:** 19 October 2026
 - **Sprint Reviewed:** Sprint 6 & 8 (Marketplace Development & Seller Dashboard)
 - **What Went Well:** Frontend React component designs were delivered ahead of schedule and aligned cleanly with wireframe layouts.
 - **What Could Be Improved:** Unclear REST API query parameters led to minor delays during frontend-backend endpoint integration.
