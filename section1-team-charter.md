@@ -17,6 +17,13 @@
 
 ---
 
+### Visual Evidence: Team Charter & Communication Agreement
+
+![Agile Team Charter Document](./assets/team-charter-proof.png)
+*Figure 1.1: Co-created Agile Team Charter and Discord/WhatsApp working agreements (October 2026).*
+
+---
+
 ### Core Artifacts of the Team Charter
 
 #### A. Shared Purpose & Mission Statement
