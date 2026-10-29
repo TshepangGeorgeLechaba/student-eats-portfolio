@@ -1,0 +1,144 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+/* StudentEats Brand Theme Variables */
+$bg-dark: #0f172a;        /* Main dark navy background */
+$card-dark: #1e293b;      /* Muted dark navy card background */
+$orange-primary: #ff5722; /* Vibrant StudentEats orange */
+$orange-hover: #e64a19;   /* Hover state orange */
+$text-white: #ffffff;     /* Heading text */
+$text-muted: #94a3b8;     /* Muted body/caption text */
+$border-color: #334155;   /* Container border color */
+
+/* Global Page Styling */
+body {
+  background-color: $bg-dark !important;
+  color: #f8fafc !important;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif !important;
+  line-height: 1.6 !important;
+}
+
+/* Header & Banner */
+.page-header {
+  background-color: $card-dark !important;
+  background-image: linear-gradient(135deg, #0f172a 0%, #1e293b 100%) !important;
+  color: $text-white !important;
+  border-bottom: 2px solid $orange-primary !important;
+  padding: 2.5rem 1rem !important;
+}
+
+.project-name {
+  color: $orange-primary !important;
+  font-weight: 800 !important;
+}
+
+.project-tagline {
+  color: $text-muted !important;
+}
+
+/* Headings & Section Lines */
+h1, h2, h3, h4, h5, h6 {
+  color: $text-white !important;
+  font-weight: 700 !important;
+}
+
+h1 {
+  color: $orange-primary !important;
+}
+
+h2 {
+  border-bottom: 1px solid $border-color !important;
+  padding-bottom: 0.4rem !important;
+  margin-top: 1.8rem !important;
+}
+
+/* Hyperlinks & Buttons */
+a {
+  color: $orange-primary !important;
+  font-weight: 600 !important;
+  text-decoration: none !important;
+}
+
+a:hover {
+  color: #ff7043 !important;
+  text-decoration: underline !important;
+}
+
+.btn {
+  background-color: $orange-primary !important;
+  color: $text-white !important;
+  border: none !important;
+  border-radius: 8px !important;
+  padding: 0.6rem 1.4rem !important;
+  font-weight: 600 !important;
+  display: inline-block !important;
+}
+
+.btn:hover {
+  background-color: $orange-hover !important;
+  color: $text-white !important;
+}
+
+/* Tables & Backlog Grids */
+table {
+  background-color: $card-dark !important;
+  border-collapse: collapse !important;
+  width: 100% !important;
+  margin: 1.2rem 0 !important;
+  border-radius: 8px !important;
+  overflow: hidden !important;
+  border: 1px solid $border-color !important;
+}
+
+th {
+  background-color: $orange-primary !important;
+  color: $text-white !important;
+  padding: 12px 16px !important;
+  text-align: left !important;
+  font-weight: 700 !important;
+}
+
+td {
+  padding: 12px 16px !important;
+  border-bottom: 1px solid $border-color !important;
+  color: #f8fafc !important;
+}
+
+tr:nth-child(even) {
+  background-color: $bg-dark !important;
+}
+
+/* Blockquotes & Definition Boxes */
+blockquote {
+  border-left: 4px solid $orange-primary !important;
+  background-color: $card-dark !important;
+  color: $text-muted !important;
+  padding: 1rem 1.2rem !important;
+  border-radius: 0 8px 8px 0 !important;
+  margin: 1.5rem 0 !important;
+}
+
+/* Code Snippets */
+code, pre {
+  background-color: $card-dark !important;
+  color: #f8fafc !important;
+  border: 1px solid $border-color !important;
+  border-radius: 6px !important;
+}
+
+/* Screenshots & Captions */
+img {
+  border-radius: 8px !important;
+  border: 1px solid $border-color !important;
+  max-width: 100% !important;
+  height: auto !important;
+  margin-top: 1rem !important;
+}
+
+em {
+  color: $text-muted !important;
+  font-style: italic !important;
+  font-size: 0.9rem !important;
+}
