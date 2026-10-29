@@ -6,6 +6,13 @@
 
 > **Definition:** A product backlog is a single, prioritized list of all required features, technical enhancements, bug fixes, and infrastructure tasks needed for a product. It is owned by the product team and continuously evolves as customer needs and technical constraints change.
 
+### Visual Evidence: Trello Product Backlog Board
+
+![Trello Product Backlog Board](./assets/product-backlog-trello.png)
+*Figure 3.1: Complete Product Backlog organized on Trello (October 2026).*
+
+---
+
 ### Student Eats Prioritized Product Backlog
 
 The table below reflects our core Product Backlog, managed on Trello using MoSCoW prioritization (Must have, Should have, Could have, Won't have) and ordered by business value for CPUT student buyers and residence vendors:
